@@ -25,6 +25,7 @@
     color: #422755;
   
     height: 3vh;
+    width: 35vw;
   }
   
   .btn-task:hover {
@@ -37,6 +38,10 @@
     #btn-form {
       width: auto;
       height: 3.4vh;
+    }
+
+    .btn-task{
+      width: 15vw;
     }
   }
   
