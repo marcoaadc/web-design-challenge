@@ -104,6 +104,8 @@ body {
   img {
     width: 30vw;
     height: 14vh;
+
+    margin: 2vw;
   }
 
   .btn-task {
@@ -173,4 +175,71 @@ body {
     color: #ffffff;
   
     height: 10vh;
+  }
+
+  @media (min-width: 700px) {
+    header h1 {
+        font-size: 36px;
+      }
+    
+      header p {
+        font-size: 18px;
+      }
+
+    .container {
+      width: 80vw;
+  
+      margin-left: 10vw;
+      margin-right: 10vw;
+    }
+  
+    .search {
+      align-items: center;
+      flex-direction: initial;
+    }
+
+    .form {
+        width: 20vw;
+        height: 3.4vh;
+      }
+
+    #btn-form {
+        width: auto;
+        height: 3.4vh;
+      }
+  
+    .tasks {
+      display: flex;
+    }
+  
+    .task {
+      flex-direction: column;
+      justify-content: space-between;
+  
+      margin-top: 4vh;
+  
+      width: 15vw;
+      height: auto;
+    }
+
+    img {
+        width: 15vw;
+        height: 15vh;
+
+        margin: auto;
+      }
+  
+    .about {
+      display: flex;  
+      flex-direction: row;
+  
+      text-align: justify;
+  
+      margin: 4vw;
+    }
+
+    #logo {
+        height: 10vh;
+        width: 20vw;
+      }
   }
