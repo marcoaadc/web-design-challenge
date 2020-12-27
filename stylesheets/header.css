@@ -1,0 +1,33 @@
+header {
+    background: #422755;
+  
+    border-bottom-left-radius: 100vw 10vw;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    color: #ffffff;
+  
+    width: 100vw;
+    height: 30vh;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header p {
+    font-size: 16px;
+  }
+  
+  @media (min-width: 700px) {
+    header h1 {
+      font-size: 36px;
+    }
+  
+    header p {
+      font-size: 18px;
+    }
+  }

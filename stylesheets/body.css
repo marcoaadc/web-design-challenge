@@ -8,30 +8,6 @@ body {
     width: 100vw;
   }
 
-  header {
-    background: #422755;
-  
-    border-bottom-left-radius: 100vw 10vw;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  
-    text-align: center;
-    color: #ffffff;
-  
-    width: 100vw;
-    height: 30vh;
-  }
-  
-  header h1 {
-    font-size: 24px;
-  }
-  
-  header p {
-    font-size: 16px;
-  }
-  
   .container {
     width: 92vw;
   
@@ -55,34 +31,6 @@ body {
     margin-top: 4vw;
   }
 
-  .form {
-    border-radius: 0.3rem;
-  
-    border: none;
-  
-    font-size: 12px;
-  
-    width: 50vw;
-    height: 3vh;
-  
-    margin-left: 2vw;
-  }
-
-  #btn-form {
-    background: #6e4b87;
-  
-    position: absolute;
-  
-    border-radius: 0.3rem;
-  
-    text-align: center;
-    font-size: 14px;
-    color: #ffffff;
-  
-    width: 18vw;
-    height: 3vh;
-  }
-  
   .task {
     border-style: solid;
     border-radius: 1rem;
@@ -101,34 +49,7 @@ body {
     height: auto;
   }
 
-  img {
-    width: 30vw;
-    height: 14vh;
-
-    margin: 2vw;
-  }
-
-  .btn-task {
-    background-color: #ffffff;
-  
-    border-radius: 0.3rem;
-  
-    margin-top: 0.5vw;
-    margin-bottom: 0.3vw;
-  
-    font-size: 14px;
-    color: #422755;
-  
-    height: 3vh;
-  }
-  
-  .btn-task:hover {
-    background: #422755;
-  
-    color: #ffffff;
-  }
-  
-  #txt-task {
+#txt-task {
     background: #422755;
   
     width: 7vw;
@@ -158,34 +79,7 @@ body {
     text-align: center;
   }
 
-  #logo {
-    height: 12vh;
-    width: 35vw;
-  }
-
-  footer {
-    background: #422755;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    font-size: 12px;
-    text-align: center;
-    color: #ffffff;
-  
-    height: 10vh;
-  }
-
-  @media (min-width: 700px) {
-    header h1 {
-        font-size: 36px;
-      }
-    
-      header p {
-        font-size: 18px;
-      }
-
+@media (min-width: 700px) {
     .container {
       width: 80vw;
   
@@ -198,16 +92,6 @@ body {
       flex-direction: initial;
     }
 
-    .form {
-        width: 20vw;
-        height: 3.4vh;
-      }
-
-    #btn-form {
-        width: auto;
-        height: 3.4vh;
-      }
-  
     .tasks {
       display: flex;
     }
@@ -222,13 +106,6 @@ body {
       height: auto;
     }
 
-    img {
-        width: 15vw;
-        height: 15vh;
-
-        margin: auto;
-      }
-  
     .about {
       display: flex;  
       flex-direction: row;
@@ -237,9 +114,4 @@ body {
   
       margin: 4vw;
     }
-
-    #logo {
-        height: 10vh;
-        width: 20vw;
-      }
   }

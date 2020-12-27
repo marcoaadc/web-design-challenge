@@ -1,0 +1,25 @@
+img {
+    width: 30vw;
+    height: 14vh;
+  
+    margin: 2vw;
+  }
+  
+  #logo {
+    height: 12vh;
+    width: 35vw;
+  }
+  
+  @media (min-width: 700px) {
+    img {
+      width: 15vw;
+      height: 15vh;
+  
+      margin: auto;
+    }
+  
+    #logo {
+      height: 10vh;
+      width: 20vw;
+    }
+  }

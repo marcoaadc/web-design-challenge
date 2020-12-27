@@ -1,0 +1,42 @@
+#btn-form {
+    background: #6e4b87;
+  
+    position: absolute;
+  
+    border-radius: 0.3rem;
+  
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+  
+    width: 18vw;
+    height: 3vh;
+  }
+  
+  .btn-task {
+    background-color: #ffffff;
+  
+    border-radius: 0.3rem;
+  
+    margin-top: 0.5vw;
+    margin-bottom: 0.3vw;
+  
+    font-size: 14px;
+    color: #422755;
+  
+    height: 3vh;
+  }
+  
+  .btn-task:hover {
+    background: #422755;
+  
+    color: #ffffff;
+  }
+  
+  @media (min-width: 700px) {
+    #btn-form {
+      width: auto;
+      height: 3.4vh;
+    }
+  }
+  

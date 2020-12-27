@@ -1,0 +1,19 @@
+.form {
+    border-radius: 0.3rem;
+  
+    border: none;
+  
+    font-size: 12px;
+  
+    width: 50vw;
+    height: 3vh;
+  
+    margin-left: 2vw;
+  }
+  
+  @media (min-width: 700px) {
+    .form {
+      width: 20vw;
+      height: 3.4vh;
+    }
+  }
