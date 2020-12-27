@@ -1,0 +1,176 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+    font-family: Open Sans;
+  
+    width: 100vw;
+  }
+
+  header {
+    background: #422755;
+  
+    border-bottom-left-radius: 100vw 10vw;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    text-align: center;
+    color: #ffffff;
+  
+    width: 100vw;
+    height: 30vh;
+  }
+  
+  header h1 {
+    font-size: 24px;
+  }
+  
+  header p {
+    font-size: 16px;
+  }
+  
+  .container {
+    width: 92vw;
+  
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  
+  .search {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  
+    background: #feaf3d;
+  
+    border-radius: 0.5rem;
+  
+    color: #ffffff;
+  
+    height: 9vh;
+  
+    margin-top: 4vw;
+  }
+
+  .form {
+    border-radius: 0.3rem;
+  
+    border: none;
+  
+    font-size: 12px;
+  
+    width: 50vw;
+    height: 3vh;
+  
+    margin-left: 2vw;
+  }
+
+  #btn-form {
+    background: #6e4b87;
+  
+    position: absolute;
+  
+    border-radius: 0.3rem;
+  
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+  
+    width: 18vw;
+    height: 3vh;
+  }
+  
+  .task {
+    border-style: solid;
+    border-radius: 1rem;
+    border-width: thin;
+  
+    margin: 1vw;
+    margin-top: 2vh;
+  
+    font-size: 12px;
+  
+    padding: 1.5vw;
+  
+    display: flex;
+  
+    width: 85vw;
+    height: auto;
+  }
+
+  img {
+    width: 30vw;
+    height: 14vh;
+  }
+
+  .btn-task {
+    background-color: #ffffff;
+  
+    border-radius: 0.3rem;
+  
+    margin-top: 0.5vw;
+    margin-bottom: 0.3vw;
+  
+    font-size: 14px;
+    color: #422755;
+  
+    height: 3vh;
+  }
+  
+  .btn-task:hover {
+    background: #422755;
+  
+    color: #ffffff;
+  }
+  
+  #txt-task {
+    background: #422755;
+  
+    width: 7vw;
+  
+    text-align: center;
+    color: #ffffff;
+  
+    position: absolute;
+  }
+  
+  .term {
+    color: red;
+  
+    font-size: 16px;
+  }
+  
+  #term {
+    color: #000000;
+  
+    font-size: 12px;
+  }
+  
+  .about {
+    flex-direction: column;
+    align-items: center;
+  
+    text-align: center;
+  }
+
+  #logo {
+    height: 12vh;
+    width: 35vw;
+  }
+
+  footer {
+    background: #422755;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+  
+    height: 10vh;
+  }
